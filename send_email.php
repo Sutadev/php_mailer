@@ -33,11 +33,11 @@ function sendMail($send_to, $otp, $name) {
     $mail->Port = 587;
 
     // Enter your email ID
-    $mail->Username = "rsutadev@gmail.com";
-    $mail->Password = "fgwc qviq jnpt lecv";
+    $mail->Username = "Enter Your Email";
+    $mail->Password = "Enter a app password Genterted by google";
 
     // Your email ID and Email Title
-    $mail->setFrom("yourEmailID@gmail.com", "CodeMohitPandey");
+    $mail->setFrom("Enter Your Email", "Enter your name");
 
     $mail->addAddress($send_to);
 
