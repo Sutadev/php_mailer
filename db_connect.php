@@ -4,7 +4,7 @@
 $servername = "localhost";
 $username = "root";
 $password ="";
-$dbname = "suta_test";
+$dbname = "";//Enter your local database name
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
